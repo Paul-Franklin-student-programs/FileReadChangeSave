@@ -8,18 +8,19 @@ int main() {
     string address;
     string city;
     string zipCode;
-    cout << "Enter first name: " << endl;
+
+    cout << "Enter first name:";
     getline(cin,firstName);
-    cout << "Enter last name: " << endl;
+    cout << "Enter last name:";
     getline(cin, lastName);
-    cout << "Enter address: " << endl;
+    cout << "Enter address:";
     getline(cin, address);
-    cout << "Enter city: " << endl;
+    cout << "Enter city:";
     getline(cin, city);
-    cout << "Enter ZIP code: " << endl;
+    cout << "Enter ZIP code:" << endl;
     getline(cin, zipCode);
 
-    cout << "Person Information: " << "\n\nFirst Name: " << firstName << "\nLast Name: " <<
+    cout << "\nPerson Information: " << "\n\nFirst Name: " << firstName << "\nLast Name: " <<
         lastName << "\nAddress: " << address << "\nCity: " << city << "\nZIP Code: " <<
             zipCode << endl;
 }
