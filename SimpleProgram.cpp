@@ -20,7 +20,7 @@ int main() {
     getline(cin, zipCode);
 
     cout << "Person Information: " << "\n\nFirst Name: " << firstName << "\nLast Name: " <<
-        lastName << "\nAddress: " << address << "\nCity: " << city << "ZIP Code: " <<
+        lastName << "\nAddress: " << address << "\nCity: " << city << "\nZIP Code: " <<
             zipCode << endl;
 }
 
