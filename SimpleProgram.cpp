@@ -3,6 +3,9 @@
 
 using namespace std;
 
+/**
+ * Main function to collect and display user information.
+ */
 int main() {
     string firstName; ///< First name of person
     string lastName; ///< Last name of person
@@ -22,6 +25,7 @@ int main() {
     cout << "Enter ZIP code: ";
     getline(cin, zipCode);
 
+    // print gathered information in properly formatted string
     cout << "\nPerson Information:\n"
             "\nFirst Name: " << firstName <<
             "\nLast Name: " << lastName <<
