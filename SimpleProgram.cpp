@@ -4,12 +4,13 @@
 using namespace std;
 
 int main() {
-    string firstName;
-    string lastName;
-    string address;
-    string city;
-    string zipCode;
+    string firstName; ///< First name of person
+    string lastName; ///< Last name of person
+    string address; ///< Home address of person
+    string city; ///< City or town in which the person lives
+    string zipCode; ///< ZIP code of person's home address
 
+    // Gather values of declared variables from user from prompts and user input
     cout << "Enter first name: ";
     getline(cin, firstName);
     cout << "Enter last name: ";
