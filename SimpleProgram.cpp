@@ -9,15 +9,15 @@ int main() {
     string city;
     string zipCode;
 
-    cout << "Enter first name:";
+    cout << "Enter first name: ";
     getline(cin,firstName);
-    cout << "Enter last name:";
+    cout << "Enter last name: ";
     getline(cin, lastName);
-    cout << "Enter address:";
+    cout << "Enter address: ";
     getline(cin, address);
-    cout << "Enter city:";
+    cout << "Enter city: ";
     getline(cin, city);
-    cout << "Enter ZIP code:" << endl;
+    cout << "Enter ZIP code: ";
     getline(cin, zipCode);
 
     cout << "\nPerson Information: " << "\n\nFirst Name: " << firstName << "\nLast Name: " <<
