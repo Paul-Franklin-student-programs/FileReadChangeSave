@@ -1,4 +1,5 @@
 #include<iostream>
+#include<string>
 
 using namespace std;
 
@@ -13,7 +14,7 @@ int main() {
     getline(cin,firstName);
     cout << "Enter last name: ";
     getline(cin, lastName);
-    cout << "Enter address: ";
+    cout << "Enter address:";
     getline(cin, address);
     cout << "Enter city: ";
     getline(cin, city);
