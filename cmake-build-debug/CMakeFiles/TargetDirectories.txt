@@ -1,0 +1,3 @@
+C:/Users/Paul/CLionProjects/Programming_3.DiscBoard_1.samplecode/cmake-build-debug/CMakeFiles/Programming_3_DiscBoard_1_samplecode.dir
+C:/Users/Paul/CLionProjects/Programming_3.DiscBoard_1.samplecode/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Paul/CLionProjects/Programming_3.DiscBoard_1.samplecode/cmake-build-debug/CMakeFiles/rebuild_cache.dir
