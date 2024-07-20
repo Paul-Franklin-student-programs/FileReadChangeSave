@@ -16,11 +16,12 @@ int main() {
     getline(cin, address);
     cout << "Enter city: " << endl;
     getline(cin, city);
-    cout << "Enter zip code: " << endl;
+    cout << "Enter ZIP code: " << endl;
     getline(cin, zipCode);
 
     cout << "Person Information: " << "\nFirst Name: " << firstName << "\nLast Name: " <<
-
+        lastName << "\nAddress: " << address << "\nCity: " << city << "ZIP Code: " <<
+            zipCode << endl;
 }
 
 
