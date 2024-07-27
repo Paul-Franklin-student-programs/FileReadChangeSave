@@ -1,5 +1,8 @@
 # ninja log v6
 48	1255	7430523996061857	CMakeFiles/Programming_3_DiscBoard_1_samplecode.dir/main.cpp.obj	4f623a2b18df8575
 1049	1321	7431924940753229	Programming_3_DiscBoard_1_samplecode.exe	59f0332e0e24bad4
-12	753	7434807523910734	build.ninja	47c3b245d6133745
+26	1739	7437959041437301	CMakeFiles/Programming_3_DiscBoard_1_samplecode.dir/CMakeFiles/Programming_3_DiscBoard_1_samplecode.dir/Programming3CriticalThinking2.cpp.obj	cdece5aa5e409b40
+12	753	7437959579885123	build.ninja	47c3b245d6133745
 10	1048	7431924930366330	CMakeFiles/Programming_3_DiscBoard_1_samplecode.dir/SimpleProgram.cpp.obj	fd211005b0aa9453
+5	1131	7437959579885123	build.ninja	47c3b245d6133745
+14	1295	7437960544310813	CMakeFiles/Programming_3_DiscBoard_1_samplecode.dir/SimpleProgram.cpp.obj	fd211005b0aa9453
