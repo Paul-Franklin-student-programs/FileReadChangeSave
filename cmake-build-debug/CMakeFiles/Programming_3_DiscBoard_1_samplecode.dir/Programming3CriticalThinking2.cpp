@@ -41,7 +41,12 @@ int main() {
  cout << "Enter sixth string." << endl;
  cin >> sixthString;
  concatString3 = fifthString + sixthString;
- cout << "Third concatenated string: " << concatString3 << endl;}
+ cout << "Third concatenated string: " << concatString3 << endl;
+
+ //print a concatenation of all six strings
+ concatAllStrings = concatString + concatString2 + concatString3;
+ cout << "Concatenation of all six strings: " << concatAllStrings << endl;
+}
 
  
 
