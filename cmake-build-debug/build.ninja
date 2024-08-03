@@ -61,6 +61,12 @@ build CMakeFiles/Programming_3_DiscBoard_1_samplecode.dir/CMakeFiles/Programming
   OBJECT_DIR = CMakeFiles\Programming_3_DiscBoard_1_samplecode.dir
   OBJECT_FILE_DIR = CMakeFiles\Programming_3_DiscBoard_1_samplecode.dir\CMakeFiles\Programming_3_DiscBoard_1_samplecode.dir
 
+build CMakeFiles/Programming_3_DiscBoard_1_samplecode.dir/CMakeFiles/Programming_3_DiscBoard_1_samplecode.dir/memory_mgmt.cpp.obj: CXX_COMPILER__Programming_3_DiscBoard_1_samplecode_unscanned_Debug C$:/Users/Paul/CLionProjects/Programming_3.DiscBoard_1.samplecode/cmake-build-debug/CMakeFiles/Programming_3_DiscBoard_1_samplecode.dir/memory_mgmt.cpp || cmake_object_order_depends_target_Programming_3_DiscBoard_1_samplecode
+  DEP_FILE = CMakeFiles\Programming_3_DiscBoard_1_samplecode.dir\CMakeFiles\Programming_3_DiscBoard_1_samplecode.dir\memory_mgmt.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Programming_3_DiscBoard_1_samplecode.dir
+  OBJECT_FILE_DIR = CMakeFiles\Programming_3_DiscBoard_1_samplecode.dir\CMakeFiles\Programming_3_DiscBoard_1_samplecode.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Programming_3_DiscBoard_1_samplecode
@@ -69,7 +75,7 @@ build CMakeFiles/Programming_3_DiscBoard_1_samplecode.dir/CMakeFiles/Programming
 #############################################
 # Link the executable Programming_3_DiscBoard_1_samplecode.exe
 
-build Programming_3_DiscBoard_1_samplecode.exe: CXX_EXECUTABLE_LINKER__Programming_3_DiscBoard_1_samplecode_Debug CMakeFiles/Programming_3_DiscBoard_1_samplecode.dir/SimpleProgram.cpp.obj CMakeFiles/Programming_3_DiscBoard_1_samplecode.dir/CMakeFiles/Programming_3_DiscBoard_1_samplecode.dir/Programming3CriticalThinking2.cpp.obj
+build Programming_3_DiscBoard_1_samplecode.exe: CXX_EXECUTABLE_LINKER__Programming_3_DiscBoard_1_samplecode_Debug CMakeFiles/Programming_3_DiscBoard_1_samplecode.dir/SimpleProgram.cpp.obj CMakeFiles/Programming_3_DiscBoard_1_samplecode.dir/CMakeFiles/Programming_3_DiscBoard_1_samplecode.dir/Programming3CriticalThinking2.cpp.obj CMakeFiles/Programming_3_DiscBoard_1_samplecode.dir/CMakeFiles/Programming_3_DiscBoard_1_samplecode.dir/memory_mgmt.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Programming_3_DiscBoard_1_samplecode.dir
