@@ -27,7 +27,6 @@ int main() {
     cout << "Value that pointerB points to: " << *pointerB << endl;
     cout << "Value that pointerC points to: " << *pointerC << endl;
 
-
     delete pointerA;
     delete pointerB;
     delete pointerC;
