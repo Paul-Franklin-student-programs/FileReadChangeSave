@@ -14,6 +14,12 @@ int main() {
     cout << "Enter third integer: " << endl;
     cin >> thirdInt;
 
+    int* pointerOne = new int;
+    *pointerOne = firstInt;
+    int* pointerTwo = new int;
+    *pointerTwo = secondInt;
+    int* pointerThree = new int;
+    *pointerThree = thirdInt;
 
 
 }
