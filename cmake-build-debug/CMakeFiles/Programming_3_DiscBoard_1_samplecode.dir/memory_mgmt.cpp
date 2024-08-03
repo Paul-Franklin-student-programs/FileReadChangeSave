@@ -1,5 +1,10 @@
 #include<iostream>
-
+/**
+ * This main method prompts the user to input three integers that are stored in three
+ * variables. Next, the program dynamically creates one pointer for each variable and
+ * then the program outputs the values of the variables, the addresses stored in the
+ * pointers, and the values that each pointer points to.
+ */
 int main() {
     using namespace std;
     int a, b, c;
@@ -30,6 +35,7 @@ int main() {
     delete pointerA;
     delete pointerB;
     delete pointerC;
+
     pointerA = nullptr;
     pointerB = nullptr;
     pointerC = nullptr;
