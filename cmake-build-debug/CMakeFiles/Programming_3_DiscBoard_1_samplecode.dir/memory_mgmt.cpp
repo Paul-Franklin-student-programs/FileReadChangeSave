@@ -30,7 +30,6 @@ int main() {
     delete pointerA;
     delete pointerB;
     delete pointerC;
-
     pointerA = nullptr;
     pointerB = nullptr;
     pointerC = nullptr;
