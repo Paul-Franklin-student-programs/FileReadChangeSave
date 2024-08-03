@@ -41,4 +41,5 @@ int main() {
     pointerC = nullptr;
 
     return 0;
+
 }
