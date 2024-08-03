@@ -12,7 +12,7 @@ int main() {
     cin >> c;
 
     int* pointerA = new int(a);
-    int* pointerB = new int(a);
+    int* pointerB = new int(b);
     int* pointerC = new int(c);
 
     cout << "Value of variable a: " << a << endl;
