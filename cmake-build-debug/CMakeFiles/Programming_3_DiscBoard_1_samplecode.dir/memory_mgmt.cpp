@@ -1,8 +1,7 @@
 #include<iostream>
-#include<string>
-using namespace std;
 
 int main() {
+    using namespace std;
     int a, b, c;
 
     cout << "Enter first integer for variable \"a\": " << endl;
@@ -24,9 +23,9 @@ int main() {
     cout << "Address stored in pointerB: " << pointerB << endl;
     cout << "Address stored in pointerC: " << pointerC << endl;
 
-    cout << "Value that pointerA points to: " << *pointerA;
-    cout << "Value that pointerB points to: " << *pointerB;
-    cout << "Value that pointerC points to: " << *pointerC;
+    cout << "Value that pointerA points to: " << *pointerA << endl;
+    cout << "Value that pointerB points to: " << *pointerB << endl;
+    cout << "Value that pointerC points to: " << *pointerC << endl;
 
 
     delete pointerA;
