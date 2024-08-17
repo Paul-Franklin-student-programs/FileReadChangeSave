@@ -6,7 +6,7 @@
 
 int main() {
     std::string filePath_CT5 = "CSC450_CT5_mod5";
-    std::string filePath2_CT5 = "update_text_file";
+    std::string filePath2_CT5 = "updated_text_file";
     std::string userString;
     while(true) {
         std::cout<<"Enter a string that is 50 characters or shorter"<< std::endl;
@@ -29,13 +29,14 @@ int main() {
         firstFileContent.assign((std::istreambuf_iterator<char>(inFile)),
                         std::istreambuf_iterator<char>());
         inFile.close();
-
-
-
-
-
-
-
-
+    }
+    std::string secondFileContent;
+    std::reverse(secondFileContent.begin(),secondFileContent.end());
+    outFile.open("updated_text_file");
+    if (outFile.is_open()) {
+        outFile << secondFileContent;
+        outFile.close();
     }
 }
+
+
