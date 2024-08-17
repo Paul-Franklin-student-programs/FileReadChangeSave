@@ -1,6 +1,7 @@
 #include <iostream>   // For input and output (cin, cout)
 #include <fstream>    // For file handling (ofstream, ifstream)
 #include <string>     // For string manipulation
+#include <iterator>   // For inputing from file
 #include <algorithm>  // For reverse function
 
 int main() {
@@ -23,7 +24,11 @@ int main() {
         outFile.close();
     }
     std::string firstFileContent;
-    std::ofstream inFile(filePath_CT5);
+    std::ifstream inFile(filePath_CT5);
+    if (inFile.is_open()) {
+        firstFileContent.assign((std::istreambuf_iterator<char>(inFile)),
+                        std::istreambuf_iterator<char>());
+        inFile.close();
 
 
 
