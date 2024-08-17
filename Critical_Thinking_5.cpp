@@ -3,7 +3,6 @@
 #include <string>     // For string manipulation
 #include <iterator>   // For inputing from file
 #include <algorithm>  // For reverse function
-
 int main() {
     std::string filePath_CT5 = "CSC450_CT5_mod5";
     std::string filePath2_CT5 = "updated_text_file";
@@ -37,6 +36,7 @@ int main() {
         outFile << secondFileContent;
         outFile.close();
     }
+    return 0;
 }
 
 
