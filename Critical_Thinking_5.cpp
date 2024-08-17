@@ -39,7 +39,7 @@ int main() {
         return 1;
     }
 
-    //reverses contents of variable called firstFileContent and assigns result to new variable
+    //reverses contents of variable "firstFileContent" and assigns result to new variable
     reverse(firstFileContent.begin(),firstFileContent.end());
     std::string firstFileContentReversed = firstFileContent;
 
