@@ -4,6 +4,8 @@
 #include <algorithm>  // For reverse function
 
 int main() {
+    std::string filePath_CT5 = "CSC450_CT5_mod5";
+    std::string filePath2_CT5 = "update_text_file";
     std::string userString;
     while(true) {
         std::cout<<"Enter a string that is 50 characters or shorter"<< std::endl;
@@ -15,7 +17,16 @@ int main() {
             break;
         }
     }
-    std::string filePath = "CSC450_CT5_mod5";
+    std::ofstream outFile(filePath_CT5, std::ios::app);
+    if (outFile.is_open()) {
+        outFile << userString << std::endl;
+        outFile.close();
+    }
+    std::string firstFileContent;
+    std::ofstream inFile(filePath_CT5);
+
+
+
 
 
 
