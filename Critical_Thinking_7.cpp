@@ -1,13 +1,14 @@
+#include <iostream>
 #include <thread>
 #include <mutex>
 
-int sharedVariable = 0;
+int sharedValue = 0;
 std::mutex mtx;
 
 void countToTwenty() {
-    std::lock_guard lock(mtx);
+    std::lock_guard <std::mutex> lock(mtx);
     for(int i = 0; i <= 20; i++) {
-        sharedVariable++;
+        sharedValue++;
     }
 }
 
@@ -15,10 +16,11 @@ int main() {
     std::thread myThread(countToTwenty);
     myThread.join();
     {
-        std::lock_guard lock(mtx);
+        std::lock_guard <std::mutex> lock(mtx);
         for(int i = 0; i <= 20;i++) {
-            sharedVariable--;
+            sharedValue--;
         }
     }
+    std::cout << "The final value of \"sharedValue\" variable is " << sharedValue << "." << std::endl;
     return 0;
 }
