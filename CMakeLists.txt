@@ -7,6 +7,6 @@ add_executable(Programming_3_DiscBoard_1_samplecode SimpleProgram.cpp
         cmake-build-debug/CMakeFiles/Programming_3_DiscBoard_1_samplecode.dir/Programming3CriticalThinking2.cpp
         cmake-build-debug/CMakeFiles/Programming_3_DiscBoard_1_samplecode.dir/memory_mgmt.cpp
         cmake-build-debug/CMakeFiles/Programming_3_DiscBoard_1_samplecode.dir/memory_mgmt.h
-        Critical_Thinking_5.cpp
+        Critical_Thinking_7.cpp
         Critical_Thinking_5.h
 )
